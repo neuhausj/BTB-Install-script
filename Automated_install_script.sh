@@ -294,7 +294,7 @@ cat <<EOF >${WorkingDirectoryTelegram}/config/custom_scripts.json
   "💰 Current coin progress": "custom_scripts/current_coin_progress.sh",
   "💰 All coins progress": "custom_scripts/all_coins_progress.sh",
   "🦸 Appreciate Masa": "echo Masa is great",
-  "Crypto chart": "python3 ../binance-chart-plugin-telegram-bot/db_chart.py",
+  "Crypto chart": "python3 ../binance-chart-plugin-telegram-bot/ -db",
   "Update crypto chart": "bash -c 'cd ../binance-chart-plugin-telegram-bot && git pull'",
   "Database warmup": "cd ../binance-trade-bot && python3 database_warmup.py"
 }
